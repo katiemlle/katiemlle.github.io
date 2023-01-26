@@ -18,13 +18,12 @@ body
   background: linear-gradient(to bottom, #f6f4f2, #f6f4f2);
 }
 
-h1, h2, h3, h4, p { /*default text color*/
+h1, h2, h3, h4, h5, p { /*default text color*/
   color: #42024d;
 }
 
 .subtitle{
-	/*color: #a350a3;*/
-	text-decoration: underline #b83db8;
+	text-decoration: underline #cdae89;
 }
 
 h1 { /*default settings*/
@@ -37,9 +36,13 @@ h1 { /*default settings*/
   font-weight: bold;
 }
 
-/*Beige Background Section in index.html*/
-#experience{
-	background-color: #cdae89;
+/*Spacing to Subsections*/
+.experience, .skills, .projects{
+  margin-top: 2em;
+}
+
+/*Recent Experience*/
+#work, #college{
 	text-align: center;
 	align-items: center;
 }
